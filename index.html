@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradient Background Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="gradient-display"></div>
+    <div class="controls">
+      <div class="color-buttons">
+        <label>
+          Select Color 1:
+          <input type="color" id="color1-picker" value="#051937">
+        </label>
+        <label>
+          Select Color 2:
+          <input type="color" id="color2-picker" value="#008793">
+        </label>
+      </div>
+      <p>Copy your code here</p>
+      <textarea id="gradient-code" readonly></textarea>
+      <button id="copy-button">Copy Code</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
